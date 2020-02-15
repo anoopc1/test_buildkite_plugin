@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -euo pipefail
+set -x
+
+echo "~~~ ANOOPC TEST PLUGIN"
+
+echo "HELLO WORLD!! ${BUILDKITE_BUILD_CHECKOUT_PATH}"
+
+ls -lf /usr/local/var/buildkite-agent/builds/airbnb_apps
+
+ls -lf "${BUILDKITE_BUILD_CHECKOUT_PATH}"

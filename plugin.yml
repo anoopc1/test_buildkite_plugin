@@ -1,0 +1,7 @@
+name: anoopc_test
+description: anoopc_test
+author: https://github.com/anoopc_test
+requirements: []
+configuration:
+  properties: {}
+  additionalProperties: false
